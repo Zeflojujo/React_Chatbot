@@ -2,14 +2,10 @@
 
 // const MessageParser = ({ children, actions }) => {
 //   const parse = (message) => {
-//     if(message.includes('hello') || message.includes('hi')) {
-//         actions.handleHello();
-//     }
-//     else if(message.includes('dog')) {
-//         actions.handleDog();
-//     }
-//     else{
-//         actions.defaultResponse();
+//     if (message.includes('hello')) {
+//       actions.handleHello();
+//     } else {
+//       actions.handleSendMessage(message);
 //     }
 //   };
 
@@ -51,3 +47,4 @@ const MessageParser = ({ children, actions }) => {
 };
 
 export default MessageParser;
+
